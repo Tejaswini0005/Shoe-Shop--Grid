@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Product{
+    border: 5px solid black;
+    width: 700px;
+    height: 380px;
+    background-color: rgb(243, 214, 188);
+    
+}
+.product-header{
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(253, 106, 106);
+    font-style: italic;
+    color: aqua;
+    grid-column: 1/4;
+    grid-row: -3/-2;
+}
+.pic{
+    margin-left: 0px;
+    padding: 0px;
+    
+}
+.price{
+    margin-left: 10px;
+    font-style: italic;
+}
+.shipping{
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 10px;
+    
+    margin-top: 15px;
+    align-items: center;
+}
+.des{
+    margin-left: 10px;
+}
+.info{
+    margin-left: 10px;
+}
+.color{
+    background-color: black;
+    height: 22px;
+    width: 22px;
+    border: 1px solid black;
+}
+.colors{
+    gap: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+}
+.color-green{
+background-color: green;
+}
+.color-blue{
+    background-color: blue;
+}
+.color-white{
+    background-color: white;
+}
+.color-red{
+    background-color: red;
+}
+.color-yellow{
+    background-color: yellow;
+}
+.details{
+    margin-left: 10px;
+    padding: 20px;
+    margin-bottom: 0px;
+
+}
+.list{
+    margin-top: 0px;
+}
+.det{
+    margin-bottom: 100px;
+    width: 250px;
+}
+.cart{
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    grid-column: -4/-1;
+}
+.cart :hover{
+background-color: white;
+color: black;
+font-weight: bold;
+}
+.image{
+    margin-left: 10px;
+}
+.det{
+    margin-bottom: 0px;
+    column-gap: 250px;
+
+}
+.article{
+    display: grid;
+    grid-template-columns: 220px 220px 250px;
+    grid-template-rows: 50px 270px;
+    
+}
